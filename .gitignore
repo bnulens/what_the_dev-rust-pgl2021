@@ -1,0 +1,38 @@
+/target
+.vscode
+
+# General patterns
+*.log
+*.tmp
+# build/
+*.swp
+*.swo
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux specific
+*~
+.nfs*
+.directory
+
+# Chapters
+## Chapter 1
+Code/chapter01/1.running_vs_compiling/main.exe
+Code/chapter01/1.running_vs_compiling/main.pdb
